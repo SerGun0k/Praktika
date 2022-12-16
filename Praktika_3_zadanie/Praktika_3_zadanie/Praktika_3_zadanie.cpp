@@ -9,14 +9,14 @@ std::string Toupper(std::string slova)
 {
 	bool flag = true;
 	std::string symbols, str;
-	const char* gl = "аеёиоуэюя";
+	const char* gl = "аеёиоуэюяАЕЁИОУЭЮЯ";
 	for (int i = 0; i < slova.size() - 1; i++)
 	{
-		for (int j = 0; j < 10; j++)
+		for (int j = 0; j < 19; j++)
 		{
 			if (slova[i] == gl[j])
 			{
-				for (int k = 0; k < 10; k++)
+				for (int k = 0; k < 19; k++)
 				{
 					if ((slova[i + 1] == gl[k]) && (slova[i + 1] != ' '))
 					{
