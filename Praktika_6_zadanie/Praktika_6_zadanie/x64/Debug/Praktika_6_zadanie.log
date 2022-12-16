@@ -1,0 +1,7 @@
+﻿  Praktika_6_zadanie.cpp
+C:\Users\muliz\source\repos\Praktika_6_zadanie\Praktika_6_zadanie\Praktika_6_zadanie.cpp(19,27): warning C4267: аргумент: преобразование из "size_t" в "_Ty"; возможна потеря данных
+          with
+          [
+              _Ty=int
+          ]
+  Praktika_6_zadanie.vcxproj -> C:\Users\muliz\source\repos\Praktika_6_zadanie\x64\Debug\Praktika_6_zadanie.exe
