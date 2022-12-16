@@ -66,7 +66,7 @@ public:
 		massive = newMass;
 	}
 
-};
+}
 int main()
 {
 	setlocale(LC_ALL, "russian");
